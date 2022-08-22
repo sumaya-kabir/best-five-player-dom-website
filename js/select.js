@@ -1,9 +1,8 @@
-function addPlayer(){
+function addPlayer(element){
     const selectedFive = document.getElementById('selected-five');
     const selectLi = document.createElement('li');
-    selectLi.innerText = parentNode.parentNode.children[0].innerText;
+    selectLi.innerText = element.parentNode.parentNode.children[0].innerText;
     selectedFive.appendChild(selectLi);
-
 }
 
 
