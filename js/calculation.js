@@ -3,7 +3,7 @@ document.getElementById('btn-calculate').addEventListener('click', function(){
     
     // player expense calculation
     const playerCostTotal = playerCost * 5;
-
+    
     // set expense value
     setValue('player-expense', playerCostTotal);
 })

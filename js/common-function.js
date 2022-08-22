@@ -1,14 +1,10 @@
 function getInputValue(inputFieldId){
     const inputField = document.getElementById(inputFieldId);
-    if(typeof inputField === 'number'){
-        const inputValueString = inputField.value;
-        const inputValue = parseFloat(inputValueString);
-        inputField.value = '';
+    const inputValueString = inputField.value;
+    const inputValue = parseFloat(inputValueString);
+    inputField.value = '';
 
-        return inputValue;
-    } else {
-        alert('Please Enter a Valid Number');
-    }
+    return inputValue;
 }
 
 function getElementValue(elementId){
